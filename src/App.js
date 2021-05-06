@@ -4,7 +4,7 @@ import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 import { createTodo, deleteTodo } from './graphql/mutations'
 import { listTodos } from './graphql/queries'
 
-import awsExports from "./aws-exports";
+import awsExports from "./1aws-exports";
 Amplify.configure(awsExports);
 
 const initialState = { name: '', description: '' }
@@ -51,7 +51,6 @@ const App = () => {
       event.preventDefault();
       const todo = [...todos ];
       const updatedTodo = todo.filter((x,i) => i !== index);
-      // console.log(updatedTodo);
       setTodos(updatedTodo);
       await API.graphql(graphqlOperation(deleteTodo, {input: updatedTodo}));
     } catch(err) {
@@ -63,9 +62,8 @@ const App = () => {
     <div style={styles.container}>
       <header className="App-header">
     <AmplifySignOut />
-    <h2>Todos APP</h2>
+    <h2>Todos APP from dev branch</h2>
 </header>
-      {/* <h2>Todos APP</h2> */}
       <input
         onChange={event => setInput('name', event.target.value)}
         style={styles.input}

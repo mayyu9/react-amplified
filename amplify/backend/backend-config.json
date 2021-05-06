@@ -1,6 +1,6 @@
 {
   "api": {
-    "reactamplified": {
+    "reactcicd": {
       "service": "AppSync",
       "providerPlugin": "awscloudformation",
       "output": {
@@ -15,21 +15,6 @@
           "additionalAuthenticationProviders": []
         }
       }
-    }
-  },
-  "auth": {
-    "reactamplified64009342": {
-      "service": "Cognito",
-      "providerPlugin": "awscloudformation",
-      "dependsOn": [],
-      "customAuth": false
-    }
-  },
-  "hosting": {
-    "amplifyhosting": {
-      "service": "amplifyhosting",
-      "providerPlugin": "awscloudformation",
-      "type": "manual"
     }
   }
 }
