@@ -1,5 +1,7 @@
 {
-  "AppSyncApiName": "reactamplified",
-  "DynamoDBBillingMode": "PAY_PER_REQUEST",
-  "DynamoDBEnableServerSideEncryption": false
+    "AppSyncApiName": "reactamplified",
+    "schemaGraphql": "s3://reactamplified-20210519184930-deployment/amplify-appsync-files/schema.graphql.1621431300610",
+    "ResolverBucket": "reactamplified-20210519184930-deployment",
+    "ResolverRootKey": "amplify-appsync-files",
+    "DeploymentTimestamp": "1621431300610"
 }

@@ -1,15 +1,19 @@
 projects:
   reactamplified:
-    schemaPath: amplify/backend/api/reactamplified/build/schema.graphql
+    schemaPath: src\graphql\schema.json
     includes:
-      - src/graphql/**/*.js
+      - src\graphql\**\*.js
     excludes:
       - ./amplify/**
     extensions:
       amplify:
         codeGenTarget: javascript
         generatedFileName: ''
-        docsFilePath: src/graphql
+        docsFilePath: src\graphql
+        graphQLApiId: 2qx7hdeeyvaftfvpoa67dfedsu
+      endpoints:
+        prod: >-
+          https://bmr3xoo4pzhlpnkkocle53oqme.appsync-api.us-east-1.amazonaws.com/graphql
 extensions:
   amplify:
     version: 3
