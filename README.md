@@ -12,3 +12,9 @@ amplify console - open the amplify console in the browser verify the nwly create
 
 amplify pull - pull changes from the backend
 
+mulitple environments:
+https://acloudguru.com/blog/engineering/multiple-serverless-environments-with-aws-amplify
+https://haverchuck.github.io/docs/cli/multienv?sdk=js
+https://docs.amplify.aws/cli/teams/overview
+
+
