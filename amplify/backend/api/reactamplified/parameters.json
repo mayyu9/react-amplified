@@ -1,7 +1,7 @@
 {
     "AppSyncApiName": "reactamplified",
-    "schemaGraphql": "s3://reactamplified-20210519184930-deployment/amplify-appsync-files/schema.graphql.1621431300610",
+    "schemaGraphql": "s3://reactamplified-20210519184930-deployment/amplify-appsync-files/schema.graphql.1621529820303",
     "ResolverBucket": "reactamplified-20210519184930-deployment",
     "ResolverRootKey": "amplify-appsync-files",
-    "DeploymentTimestamp": "1621431300610"
+    "DeploymentTimestamp": "1621529820303"
 }
